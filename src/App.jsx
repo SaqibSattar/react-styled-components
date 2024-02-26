@@ -1,13 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import Button from './components/Button/Button'
+import StyledButton from './components/Button/Button'
 
 function App() {
   
   return (
     <>
     <div>
-    <Button>Styled Button</Button>
+    <StyledButton>Styled Button</StyledButton>
+    <div>
+        <br />
+      </div>
+      <StyledButton variant='outline'>Styled Button</StyledButton>
     </div>
     </>
   )
