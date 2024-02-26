@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import './App.css'
 import StyledButton, { FancyButton, SubmitButton } from './components/Button/Button'
+import { AnimatedLogo } from './components/Button/Button.styles'
+import reactLogo from './assets/react.svg'
 
 function App() {
   
@@ -20,9 +22,11 @@ function App() {
       <br />
     </div>
     <SubmitButton>Submit</SubmitButton>
+    <AnimatedLogo src={reactLogo} />
     </div>
     </>
   )
 }
 
 export default App
+
